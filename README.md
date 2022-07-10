@@ -7,7 +7,7 @@ For a Software Engineer / Developer / Data Scientist,
 a 1-page Curriculum Vitae is not enough to showcase skills.
 
 So, what is enough?
-> ###*Projects!**
+    ###*Projects!**
 
 My Portfolio website was designed to consist of 5 sections:
 1.  *Home*
