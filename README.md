@@ -26,3 +26,6 @@ This has been my first experience with front-end development (HTML, CSS (SASS), 
 ```
 
 Special thanks to [freeCodeCamp.org](https://www.youtube.com/watch?v=xV7S8BhIeBo)
+
+
+>> Timestamp: 48:14
