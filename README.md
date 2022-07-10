@@ -6,7 +6,7 @@ Alors, building your own portfolio is important for career development.
 For a Software Engineer / Developer / Data Scientist,
 a 1-page Curriculum Vitae is not enough to showcase skills.
 
-So, what is enough?
+So, what is enough?<br>
 **Projects!**
 
 My Portfolio website was designed to consist of 5 sections:
