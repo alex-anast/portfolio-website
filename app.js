@@ -15,6 +15,28 @@ function PageTransitions(){
             this.className += 'active-btn' // "this" refers to the function itself
         })
     }
+
+    // Now the Active Class is going to be added in the sections!
+    // Sections Active Class
+    allSections.addEventListener('click', (e) =>{ // e as in event
+        // console.log(e.target) // When you click on a section it is going to create a log
+        const id = e.target.dataset.id; // data ID is the Dataset
+        if(id){
+            // Remove selected from the other buttons
+            sectBtns.forEach((btn) => {
+                btn.classList.remove('active')
+            })
+            e.target.classList.add('active')
+
+            // Hide other sections
+            sections.forEach((section)=>{
+                section.classList.remove('active');
+            })
+
+            const element = document.getElementById(id) // Whatever id is coming from the dataset is going to be inside the element
+            element.classList.add('active');
+        }
+    })
 }
 
 PageTransitions();
