@@ -18,6 +18,11 @@ My Portfolio website was designed to consist of 5 sections:
 
 The contect is of course on-going, but overall this repo is going to give a nice basis of where to put my work from now on.
 
+Useful links for development:
+- [Font-Awesome Librs Enabling](https://cdnjs.com/libraries/font-awesome)
+- [Icons from Font Awesome](https://fontawesome.com/icons/)
+- [Google Fonts](https://fonts.google.com/)
+
 ```
 {
 DISCLAIMER:
@@ -26,3 +31,5 @@ This has been my first experience with front-end development (HTML, CSS (SASS), 
 ```
 
 Special thanks to [freeCodeCamp.org](https://www.youtube.com/watch?v=xV7S8BhIeBo)
+
+>> Timestamp: 48:14

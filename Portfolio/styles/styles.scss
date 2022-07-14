@@ -71,26 +71,43 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1); /*This is a form of animation.*/
+    background-color: rgb(16, 228, 38, 0.849);
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1); /*This is a form of animation.*/
+    background-color: slateblue; // I give diff colors to be able to identify them
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1); /*This is a form of animation.*/
+    background-color: rgb(146, 205, 90);
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1); /*This is a form of animation.*/
+    background-color: rgb(194, 205, 90);
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1); /*This is a form of animation.*/
+}
+
+.active{
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0%{
+            transform: translateY(-100%) scaleY(0);
+        }
+        100%{
+            transform: translateY(0) scaleY(1)
+        }
+    }
 }
 
 // This is how you handle the active buttons
